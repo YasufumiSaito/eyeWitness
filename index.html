@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>👀WITNESS</title>
+ 
+  <link rel="stylesheet" href="css/jquery.flipster.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+  <script src="js/spectrum.js"></script>
+  <script src="js/ajax.js"></script>
+  <script src="js/jquery.flipster.min.js"></script>
+  
+</head>
+<body>
+<div id="spectrumPlugin" class="spectrumHeader">
+  <div class="head">
+  <h1><i class="fa fa-eye"></i>WITNESS</h1>
+    <form>
+      <input type="search" name="search" id="search" placeholder="#Type Hashtag">
+      <input type="submit" value="→" id="submit">
+    </form>
+  </div>
+
+  <div id="photos"></div>
+</div>
+<script>
+  $(document).ready(function(){
+    $('body').spectrum();
+  });
+</script>
+</body>
+</html>
